@@ -1,5 +1,5 @@
 {
-  "name": "Hello-Microverse",
+  "name": "my-professional-portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,16 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bertinkambale/Hello-Microverse.git"
+    "url": "git+https://github.com/bertinkambale/My-professional-portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bertinkambale/Hello-Microverse/issues"
+    "url": "https://github.com/bertinkambale/My-professional-portfolio/issues"
   },
-  "homepage": "https://github.com/bertinkambale/Hello-Microverse#readme",
+  "homepage": "https://github.com/bertinkambale/My-professional-portfolio#readme",
   "devDependencies": {
-    "hint": "^6.2.0"
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
   }
 }
