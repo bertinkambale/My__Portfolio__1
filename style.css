@@ -197,6 +197,38 @@ body {
   margin-bottom: 20px;
 }
 
+.my-sixth-section button {
+  border-radius: 10px;
+  background-color: white;
+  color: #396df2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 30px;
+  border-color: #396df2;
+  text-align: center;
+  font-size: 16px;
+  border-width: 1px;
+  margin-bottom: 20px;
+}
+
+.my-sixth-section button:hover {
+  border-radius: 10px;
+  background-color: #396df2;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 30px;
+  border-color: #396df2;
+  text-align: center;
+  font-size: 16px;
+  border-width: 1px;
+  margin-bottom: 20px;
+}
+
 .see-project4 button:hover {
   border-radius: 10px;
   background-color: #0b47df;
@@ -253,38 +285,6 @@ body {
 
 .my-sixth-section li {
   padding-right: 10px;
-}
-
-.my-sixth-section button:hover {
-  border-radius: 10px;
-  background-color: #396df2;
-  color: #ffffff;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 25px;
-  padding-right: 25px;
-  margin-top: 30px;
-  border-color: #396df2;
-  text-align: center;
-  font-size: 16px;
-  border-width: 1px;
-  margin-bottom: 20px;
-}
-
-.my-sixth-section button {
-  border-radius: 10px;
-  background-color: white;
-  color: #396df2;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 25px;
-  padding-right: 25px;
-  margin-top: 30px;
-  border-color: #396df2;
-  text-align: center;
-  font-size: 16px;
-  border-width: 1px;
-  margin-bottom: 20px;
 }
 
 .my-seventh-section {
