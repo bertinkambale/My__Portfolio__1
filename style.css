@@ -305,7 +305,7 @@ body {
   padding-bottom: 10px;
 }
 
-.js span {
+.js li:last-child {
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -322,7 +322,7 @@ body {
   padding-bottom: 10px;
 }
 
-.htmlH span {
+.htmlH li:last-child {
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -339,7 +339,7 @@ body {
   padding-bottom: 10px;
 }
 
-.cssH span {
+.cssH li:last-child  {
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
