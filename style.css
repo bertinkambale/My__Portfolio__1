@@ -468,3 +468,20 @@ body {
   border: 1px solid #CFD8DC;
   padding: 15px 38px 15px 16px;
 }
+.button {
+  height: 48px;
+  width: 140px;
+  border-radius: 8px;
+  padding: 12px, 16px, 12px, 16px;
+  color: #2E42F8;
+  border: 1px solid #CFD8DC;
+}
+/* stylelint-disable-next-line rule-empty-line-before */
+.button:hover {
+  background-color: #396DF2;
+  color: white;
+  border: 1px solid white;
+}
+.last-img {
+  padding-left: 100px;
+}
