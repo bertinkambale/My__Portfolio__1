@@ -449,3 +449,22 @@ body {
   flex-direction: column;
   gap: 15px;
 }
+
+.input-textarea {
+  height: 170px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  padding: 15px 38px 15px 16px;
+  resize: none;
+  border-radius: 8px;
+}
+.form-control {
+  height: 48px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  border: 1px solid #CFD8DC;
+  padding: 15px 38px 15px 16px;
+}
