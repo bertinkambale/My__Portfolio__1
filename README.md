@@ -59,6 +59,14 @@ npx eslint .
 
 - GitHub: [@bertinkambale]https://github.com/bertinkambale
   
+
+👤 **Ibrahim Suhail**
+
+- GitHub: [@cluab](https://github.com/Cluab)
+- Twitter: [@cluab122](https://twitter.com/cluab122)
+- LinkedIn: [Ebrahim Al-Yousefi](https://linkedin.com/in/Ebrahim Al-Yousefi)
+- Instagram: [@27.i.b](https://www.instagram.com/27.i.b/)
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
