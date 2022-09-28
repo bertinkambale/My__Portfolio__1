@@ -15,11 +15,21 @@ body {
   justify-content: space-between;
 }
 
-.header svg{
+.header svg {
   display: flex;
 }
 
-.my-first-section li a{
+.my-first-section a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #6070ff;
+}
+
+.my-first-section li a {
   display: none;
 }
 
@@ -31,9 +41,11 @@ body {
   max-width: 90%;
   margin: 0 auto;
 }
-.container h3{
-  padding: 15px 0px 15px 0px;
+
+.container h3 {
+  padding: 15px 0 15px 0;
 }
+
 .back {
   position: absolute;
   background-image: url(/images/header-shapes-mobile.png);
@@ -52,16 +64,6 @@ body {
   flex-direction: column;
   gap: 10px;
   margin-bottom: 330px;
-}
-
-.my-first-section a {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  color: #6070ff;
 }
 
 .my-first-section h1 {
@@ -144,7 +146,6 @@ body {
 .new-style {
   display: flex;
   align-items: center;
-  gap: 15px;
 }
 
 .new-style img {
@@ -258,6 +259,7 @@ body {
 .my-sixth-section {
   background-color: #ffff;
   border-top-right-radius: 80px;
+  padding-left: 10px;
 }
 
 .my-sixth-section h1 {
@@ -308,9 +310,11 @@ body {
   justify-content: space-between;
   font-family: "Poppins", sans-serif;
 }
-.first-bar h2{
+
+.first-bar h2 {
   padding-top: 50px;
 }
+
 .js {
   display: flex;
   padding-top: 10px;
@@ -379,6 +383,7 @@ body {
 .chevron1 {
   display: flex;
   justify-content: space-between;
+  color: #344563;
 }
 
 .chevron1 span {
@@ -447,6 +452,7 @@ body {
   text-align: center;
   font-weight: 400;
   line-height: 28px;
+  width:400px;
 }
 
 .my-contact img {
@@ -500,15 +506,14 @@ body {
 .last-img {
   padding-left: 100px;
 }
- 
-@media screen and (min-width: 768px){
 
+@media screen and (min-width: 768px) {
   .header {
     display: flex;
     justify-content: space-between;
     position: fixed;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     background-color: white;
     width: 100%;
     padding-top: 20px;
@@ -516,24 +521,36 @@ body {
     padding-left: 60px;
     padding-right: 60px;
   }
-  
-  .header svg{
+
+  .header svg {
     display: none;
   }
-  .my-first-section li a{
+
+  .my-first-section a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
     display: flex;
-    color:#344563;
+    align-items: center;
+    color: #6070ff;
+  }
+
+  .my-first-section li a {
+    display: flex;
+    color: #344563;
     font-weight: 500px;
     font-size: 15px;
     line-height: 10px;
   }
+
   .my-first-section {
     margin-bottom: 300px;
     padding-top: 60px;
     padding-left: 50px;
     padding-right: 50px;
   }
-  
+
   .back {
     position: absolute;
     background-image: url(/Media_queries_images/Header\ bg@2x.png);
@@ -546,22 +563,12 @@ body {
     z-index: -999;
     border-bottom-left-radius: 80px;
   }
-  
+
   .main-header {
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-bottom: 330px;
-  }
-  
-  .my-first-section a {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    color: #6070ff;
   }
 
   .my-first-section h1 {
@@ -570,7 +577,7 @@ body {
     color: #172b4d;
     margin-top: 80px;
   }
-  
+
   .my-first-section h3 {
     font-style: normal;
     font-weight: 500;
@@ -578,7 +585,7 @@ body {
     line-height: 24px;
     color: #7f8cff;
   }
-  
+
   .my-first-section p {
     font-style: normal;
     font-weight: 400;
@@ -586,13 +593,13 @@ body {
     line-height: 24px;
     color: #344563;
   }
-  
+
   .my-first-section ul {
     display: flex;
     align-items: center;
     gap: 15px;
   }
-  
+
   .my-second-section {
     display: grid;
     gap: 15px;
@@ -601,11 +608,11 @@ body {
     padding: 12px;
     border-radius: 16px;
   }
-  
+
   .my-second-section img {
     width: 100%;
   }
-  
+
   .card-section {
     display: grid;
     gap: 50px;
@@ -613,7 +620,7 @@ body {
     align-items: center;
     margin-bottom: -100px;
   }
-  
+
   .my-second-section h1 {
     font-style: normal;
     font-weight: 700;
@@ -624,7 +631,7 @@ body {
     color: #172b4d;
     padding-bottom: 10px;
   }
-  
+
   .my-second-section p {
     font-style: normal;
     font-weight: 400;
@@ -633,31 +640,36 @@ body {
     color: #344563;
     padding-bottom: 10px;
   }
-  
-  .display_desktop{
-    display:flex;
+
+  .display-desktop {
+    display: flex;
     justify-content: space-between;
-  
   }
-  
-  .display_desktop div{
+
+  .display-desktop div {
     padding-left: 30px;
   }
-  .display_desktop img{
-    width:700px;
-  }
-  .display-desktop1 {
-    display:flex;
-    flex-direction: row-reverse;
-  }
-  .display-desktop1 img{
-    padding-left: 20px;
+
+  .display-desktop img {
     width: 700px;
   }
-  .display-desktop1 div{
+
+  .display-desktop1 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .display-desktop1 img {
+    padding-left: 20px;
+    width: 700px;
+    padding-bottom: -20px;
+  }
+
+  .display-desktop1 div {
     padding-left: 10px;
   }
-  .display-desketop2{
+
+  .display-desketop2 {
     display: flex;
     background-color: white;
     border-radius: 50px;
@@ -665,46 +677,43 @@ body {
     padding: 10px 80px 100px 80px;
     width: 1349px;
   }
-  .display-desketop2 h2{
+
+  .display-desketop2 h2 {
     margin-top: -50px;
     color: #344563;
     font-size: 1.5rem;
     font-weight: normal;
   }
-  .display-desketop2 h1{
+
+  .display-desketop2 h1 {
     margin-top: 50px;
-    color:#344563;
+    color: #344563;
     padding-bottom: 20px;
     padding-top: 10px;
   }
 
-  .display-destop3{
+  .display-destop3 {
     display: flex;
-    gap:10px;
+    gap: 10px;
     padding-top: 30px;
   }
-  .display-destop3 ul{
-    background-color:#F7F7F9;
+
+  .display-destop3 ul {
+    background-color: #f7f7f9;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    width:100px;
+    width: 100px;
     border-radius: 5px;
     margin-bottom: 20px;
   }
-  .chevron1{
-    color: #344563;
-    font-weight:normal;
+
+  .first-bar {
+    margin-top: 30px;
   }
-  .chevron2{
-    color: #344563;
-    font-weight: normal;
-  }
-  .first-bar{
-    margin-top:30px;
-  }
-  .first-bar i{
-    margin-top:-30px;
+
+  .first-bar i {
+    margin-top: -30px;
     padding-bottom: 20px;
   }
 
@@ -717,19 +726,19 @@ body {
     font-size: 16px;
     border-width: 1px;
   }
-  
+
   .new-style {
     display: flex;
     align-items: center;
     gap: 15px;
     padding-bottom: 10px;
   }
-  
+
   .new-style img {
     width: 8px;
     height: 8px;
   }
-  
+
   .new-style h1 {
     font-style: normal;
     font-weight: 700;
@@ -739,7 +748,7 @@ body {
     align-items: center;
     color: #172b4d;
   }
-  
+
   .new-style h2 {
     font-style: normal;
     font-weight: 600;
@@ -747,7 +756,7 @@ body {
     line-height: 16px;
     color: #344563;
   }
-  
+
   .new-style h3 {
     font-style: normal;
     font-weight: 600;
@@ -755,11 +764,11 @@ body {
     line-height: 16px;
     color: #7a869a;
   }
-  
+
   .ancrotag {
     display: flex;
   }
-  
+
   .ancrotag li {
     color: #3e50f0;
     background-color: #ebebff;
@@ -768,7 +777,7 @@ body {
     padding: 5px;
     margin-left: 10px;
   }
-  
+
   .see-project4 button {
     border-radius: 10px;
     background-color: white;
@@ -784,7 +793,7 @@ body {
     border-width: 1px;
     margin-bottom: 20px;
   }
-  
+
   .my-sixth-section button {
     border-radius: 10px;
     background-color: white;
@@ -800,7 +809,7 @@ body {
     border-width: 1px;
     margin-bottom: 20px;
   }
-  
+
   .my-sixth-section button:hover {
     border-radius: 10px;
     background-color: #396df2;
@@ -816,7 +825,7 @@ body {
     border-width: 1px;
     margin-bottom: 20px;
   }
-  
+
   .see-project4 button:hover {
     border-radius: 10px;
     background-color: #0b47df;
@@ -832,7 +841,8 @@ body {
     border-width: 1px;
     margin-bottom: 20px;
   }
-  .my-sixth-section{
+
+  .my-sixth-section {
     width: 900px;
   }
 
@@ -841,7 +851,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  
+
   .js li:last-child {
     font-style: normal;
     font-weight: 500;
@@ -852,13 +862,13 @@ body {
     color: #253858;
     padding-left: 10px;
   }
-  
+
   .htmlH {
     display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  
+
   .htmlH li:last-child {
     font-style: normal;
     font-weight: 500;
@@ -869,13 +879,13 @@ body {
     color: #253858;
     padding-left: 10px;
   }
-  
+
   .cssH {
     display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  
+
   .cssH li:last-child {
     font-style: normal;
     font-weight: 500;
@@ -886,7 +896,7 @@ body {
     color: #253858;
     padding-left: 10px;
   }
-  
+
   .frame {
     font-style: normal;
     font-weight: 500;
@@ -894,7 +904,7 @@ body {
     line-height: 24px;
     padding-bottom: -20px;
   }
-  
+
   .ski {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -902,37 +912,33 @@ body {
     font-size: 20px;
     line-height: 24px;
   }
-  
+
   .chevron1 {
     display: flex;
     justify-content: space-between;
   }
-  
+
   .chevron1 span {
     padding-top: 30px;
     color: black;
     font-size: 15px;
   }
-  
+
   .chevron2 {
     display: flex;
     justify-content: space-between;
+    color: #344563;
+    font-weight: normal;
   }
-  
-  .chevron2 span {
-    padding-top: 30px;
-    color: black;
-    font-size: 15px;
-  }
-  
+
   .first-bar span {
     padding-top: 30px;
     color: black;
     font-size: 15px;
   }
-  
+
   /* My contact */
-  
+
   .background-img {
     position: absolute;
     width: 100%;
@@ -945,7 +951,7 @@ body {
     background-position: right;
     z-index: -999;
   }
-  
+
   .form-main {
     display: flex;
     flex-direction: column;
@@ -957,23 +963,23 @@ body {
     font-weight: 500;
   }
 
-  .theSecondContainer h2{
-    padding: 10px 0px 30px 0px;
+  .theSecondContainer h2 {
+    padding: 10px 0 30px 0;
   }
-    
+
   .my-contact img {
     padding-bottom: 10px;
     padding-left: 350px;
     display: flex;
     justify-content: center;
   }
-  
+
   .myform {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
-  
+
   .input-textarea {
     height: 170px;
     width: 327px;
@@ -983,7 +989,7 @@ body {
     resize: none;
     border-radius: 8px;
   }
-  
+
   .form-control {
     height: 48px;
     width: 327px;
@@ -993,7 +999,7 @@ body {
     border: 1px solid #cfd8dc;
     padding: 15px 38px 15px 16px;
   }
-  
+
   .button {
     height: 48px;
     width: 140px;
@@ -1008,8 +1014,8 @@ body {
     color: white;
     border: 1px solid white;
   }
-  
+
   .last-img {
     padding-left: 100px;
-  } 
+  }
 }
