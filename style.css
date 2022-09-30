@@ -116,7 +116,6 @@ body {
 
 .card-section {
   display: grid;
-  gap: 50px;
   flex-direction: column;
   align-items: center;
 }
@@ -609,8 +608,8 @@ body {
   }
 
   .my-second-section {
-    padding: 12px;
     border-radius: 16px;
+    margin-right: 55px;
   }
 
   .my-second-section img {
@@ -619,9 +618,11 @@ body {
 
   .card-section {
     display: grid;
-    gap: 50px;
+    gap: 80px;
+    padding: 80px;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 
   .my-second-section h2 {
@@ -682,11 +683,13 @@ body {
   .display-desketop2 {
     display: flex;
     background-color: white;
-    border-radius: 50px;
+    border-bottom-right-radius: 50px;
     align-items: center;
-    padding: 10px 80px 100px 80px;
     width: 100%;
     margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
   }
 
   .display-desketop2 h2 {
