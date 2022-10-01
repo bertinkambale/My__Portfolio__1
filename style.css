@@ -1045,5 +1045,6 @@ body {
 
   .last-img {
     display: none;
+    animation: iteration-count;
   }
 }
