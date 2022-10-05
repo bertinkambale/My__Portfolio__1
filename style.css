@@ -28,7 +28,7 @@ body {
   line-height: 20px;
   display: flex;
   align-items: center;
-  color: #0019FA;
+  color: #0019fa;
   width: 100%;
 }
 
@@ -83,7 +83,7 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 24px;
-  color:#0019FA;
+  color: #0019fa;
 }
 
 .my-first-section p {
@@ -142,8 +142,8 @@ body {
 .see-project button {
   border-radius: 10px;
   background-color: white;
-  color: #0019FA;
-  border-color: #0019FA;
+  color: #0019fa;
+  border-color: #0019fa;
   text-align: center;
   font-size: 16px;
   border-width: 1px;
@@ -184,7 +184,7 @@ body {
 }
 
 .ancrotag li {
-  color: #0019FA;
+  color: #0019fa;
   background-color: #ebebff;
   text-decoration: none;
   border-radius: 5px;
@@ -195,13 +195,13 @@ body {
 .see-project4 button {
   border-radius: 10px;
   background-color: white;
-  color: #0019FA;
+  color: #0019fa;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 25px;
   padding-right: 25px;
   margin-top: 30px;
-  border-color: #0019FA;
+  border-color: #0019fa;
   text-align: center;
   font-size: 16px;
   border-width: 1px;
@@ -211,13 +211,13 @@ body {
 .my-sixth-section button {
   border-radius: 10px;
   background-color: white;
-  color: #0019FA;
+  color: #0019fa;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 25px;
   padding-right: 25px;
   margin-top: 30px;
-  border-color: #0019FA;
+  border-color: #0019fa;
   text-align: center;
   font-size: 16px;
   border-width: 1px;
@@ -226,14 +226,14 @@ body {
 
 .my-sixth-section button:hover {
   border-radius: 10px;
-  background-color: #0019FA;
+  background-color: #0019fa;
   color: #fff;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 25px;
   padding-right: 25px;
   margin-top: 30px;
-  border-color: #0019FA;
+  border-color: #0019fa;
   text-align: center;
   font-size: 16px;
   border-width: 1px;
@@ -242,14 +242,14 @@ body {
 
 .see-project4 button:hover {
   border-radius: 10px;
-  background-color: #0019FA;
+  background-color: #0019fa;
   color: white;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 25px;
   padding-right: 25px;
   margin-top: 30px;
-  border-color: #0019FA;
+  border-color: #0019fa;
   text-align: center;
   font-size: 16px;
   border-width: 1px;
@@ -279,7 +279,7 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 24px;
-  color: #0019FA;
+  color: #0019fa;
   flex: none;
 }
 
@@ -419,7 +419,7 @@ body {
   position: absolute;
   width: 100%;
   height: 779px;
-  background-color: #0019FA;
+  background-color: #0019fa;
   background-image: url("./Images-for-desktop-version/contact-form-Desktop-background-shapes.svg");
   background-repeat: no-repeat;
   background-size: auto;
@@ -429,7 +429,7 @@ body {
 }
 
 .hp1 {
-  background-color:#0019FA;
+  background-color: #0019fa;
 }
 
 .form-main {
@@ -441,8 +441,19 @@ body {
   font-style: normal;
   font-weight: 500;
 }
+
+.theSecondContainer p {
+  color: #ebebff;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 28px;
+  width: 100%;
+}
+
 .form-main label p {
-  display:none;
+  display: none;
 }
 
 .theSecondContainer {
@@ -456,16 +467,6 @@ body {
   font-size: 40px;
   font-weight: 700px;
   color: #ffff;
-}
-
-.theSecondContainer p {
-  color: #ebebff;
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  text-align: center;
-  font-weight: 400;
-  line-height: 28px;
-  width: 100%;
 }
 
 .my-contact img {
@@ -507,12 +508,12 @@ body {
   margin-left: 100px;
   border-radius: 8px;
   padding: 12px, 16px, 12px, 16px;
-  color: #0019FA;
+  color: #0019fa;
   border: 1px solid #cfd8dc;
 }
 /* stylelint-disable-next-line rule-empty-line-before */
 .button:hover {
-  background-color: #0019FA;
+  background-color: #0019fa;
   color: white;
   border: 1px solid white;
 }
@@ -547,7 +548,7 @@ body {
     line-height: 20px;
     display: flex;
     align-items: center;
-    color: #0019FA;
+    color: #0019fa;
   }
 
   .my-first-section li a {
@@ -597,7 +598,7 @@ body {
     font-weight: 500;
     font-size: 15px;
     line-height: 24px;
-    color: #0019FA;
+    color: #0019fa;
   }
 
   .my-first-section p {
@@ -731,8 +732,8 @@ body {
   .see-project button {
     border-radius: 10px;
     background-color: white;
-    color: #0019FA;
-    border-color: #0019FA;
+    color: #0019fa;
+    border-color: #0019fa;
     text-align: center;
     font-size: 16px;
     border-width: 1px;
@@ -787,7 +788,7 @@ body {
   }
 
   .ancrotag li {
-    color: #0019FA;
+    color: #0019fa;
     background-color: #ebebff;
     text-decoration: none;
     border-radius: 5px;
@@ -798,13 +799,13 @@ body {
   .see-project4 button {
     border-radius: 10px;
     background-color: white;
-    color: #0019FA;
+    color: #0019fa;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 25px;
     padding-right: 25px;
     margin-top: 30px;
-    border-color: #0019FA;
+    border-color: #0019fa;
     text-align: center;
     font-size: 16px;
     border-width: 1px;
@@ -814,13 +815,13 @@ body {
   .my-sixth-section button {
     border-radius: 10px;
     background-color: white;
-    color: #0019FA;
+    color: #0019fa;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 25px;
     padding-right: 25px;
     margin-top: 30px;
-    border-color: #0019FA;
+    border-color: #0019fa;
     text-align: center;
     font-size: 16px;
     border-width: 1px;
@@ -829,14 +830,14 @@ body {
 
   .my-sixth-section button:hover {
     border-radius: 10px;
-    background-color: #0019FA;
+    background-color: #0019fa;
     color: #fff;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 25px;
     padding-right: 25px;
     margin-top: 30px;
-    border-color: #0019FA;
+    border-color: #0019fa;
     text-align: center;
     font-size: 16px;
     border-width: 1px;
@@ -845,14 +846,14 @@ body {
 
   .see-project4 button:hover {
     border-radius: 10px;
-    background-color: #0019FA;
+    background-color: #0019fa;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 25px;
     padding-right: 25px;
     margin-top: 30px;
-    border-color: #0019FA;
+    border-color: #0019fa;
     text-align: center;
     font-size: 16px;
     border-width: 1px;
@@ -964,7 +965,7 @@ body {
     position: absolute;
     width: 100%;
     height: 779px;
-    background-color: #0019FA;
+    background-color: #0019fa;
     background-image: url("./Images-for-desktop-version/contact-form-Desktop-background-shapes.svg");
     background-repeat: no-repeat;
     background-size: auto;
@@ -1039,13 +1040,13 @@ body {
   .button {
     height: 48px;
     border-radius: 8px;
-    color: #0019FA;
+    color: #0019fa;
     border: 1px solid #cfd8dc;
     margin-left: 100px;
   }
   /* stylelint-disable-next-line rule-empty-line-before */
   .button:hover {
-    background-color: #0019FA;
+    background-color: #0019fa;
     color: white;
     border: 1px solid white;
   }
