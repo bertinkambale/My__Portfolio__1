@@ -28,7 +28,7 @@ body {
   line-height: 20px;
   display: flex;
   align-items: center;
-  color: #0019fa;
+  color: #6070ff;
   width: 100%;
 }
 
@@ -83,7 +83,7 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 24px;
-  color: #0019fa;
+  color: #7f8cff;
 }
 
 .my-first-section p {
@@ -142,8 +142,8 @@ body {
 .see-project button {
   border-radius: 10px;
   background-color: white;
-  color: #0019fa;
-  border-color: #0019fa;
+  color: #396df2;
+  border-color: #396df2;
   text-align: center;
   font-size: 16px;
   border-width: 1px;
@@ -174,7 +174,7 @@ body {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #344563;
+  color: #7a869a;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -184,7 +184,7 @@ body {
 }
 
 .ancrotag li {
-  color: #0019fa;
+  color: #3e50f0;
   background-color: #ebebff;
   text-decoration: none;
   border-radius: 5px;
@@ -195,13 +195,13 @@ body {
 .see-project4 button {
   border-radius: 10px;
   background-color: white;
-  color: #0019fa;
+  color: #396df2;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 25px;
   padding-right: 25px;
   margin-top: 30px;
-  border-color: #0019fa;
+  border-color: #396df2;
   text-align: center;
   font-size: 16px;
   border-width: 1px;
@@ -211,13 +211,13 @@ body {
 .my-sixth-section button {
   border-radius: 10px;
   background-color: white;
-  color: #0019fa;
+  color: #396df2;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 25px;
   padding-right: 25px;
   margin-top: 30px;
-  border-color: #0019fa;
+  border-color: #396df2;
   text-align: center;
   font-size: 16px;
   border-width: 1px;
@@ -226,14 +226,14 @@ body {
 
 .my-sixth-section button:hover {
   border-radius: 10px;
-  background-color: #0019fa;
+  background-color: #396df2;
   color: #fff;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 25px;
   padding-right: 25px;
   margin-top: 30px;
-  border-color: #0019fa;
+  border-color: #396df2;
   text-align: center;
   font-size: 16px;
   border-width: 1px;
@@ -242,14 +242,14 @@ body {
 
 .see-project4 button:hover {
   border-radius: 10px;
-  background-color: #0019fa;
+  background-color: #0b47df;
   color: white;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 25px;
   padding-right: 25px;
   margin-top: 30px;
-  border-color: #0019fa;
+  border-color: rgb(33, 90, 247);
   text-align: center;
   font-size: 16px;
   border-width: 1px;
@@ -270,7 +270,7 @@ body {
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #344563;
+  color: #172b4d;
   margin-top: 150px;
 }
 
@@ -279,7 +279,7 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 24px;
-  color: #0019fa;
+  color: #7f8cff;
   flex: none;
 }
 
@@ -331,7 +331,7 @@ body {
   line-height: 20px;
   display: flex;
   align-items: center;
-  color: #344563;
+  color: #253858;
   padding-left: 10px;
 }
 
@@ -348,7 +348,7 @@ body {
   line-height: 20px;
   display: flex;
   align-items: center;
-  color: #344563;
+  color: #253858;
   padding-left: 10px;
 }
 
@@ -365,7 +365,7 @@ body {
   line-height: 20px;
   display: flex;
   align-items: center;
-  color: #344563;
+  color: #253858;
 }
 
 .frame {
@@ -419,17 +419,13 @@ body {
   position: absolute;
   width: 100%;
   height: 779px;
-  background-color: #0019fa;
+  background-color: #6070ff;
   background-image: url("./Images-for-desktop-version/contact-form-Desktop-background-shapes.svg");
   background-repeat: no-repeat;
   background-size: auto;
   border-top-left-radius: 80px;
   background-position: right;
   z-index: -999;
-}
-
-.hp1 {
-  background-color: #0019fa;
 }
 
 .form-main {
@@ -440,20 +436,6 @@ body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-}
-
-.theSecondContainer p {
-  color: #ebebff;
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  text-align: center;
-  font-weight: 400;
-  line-height: 28px;
-  width: 100%;
-}
-
-.form-main label p {
-  display: none;
 }
 
 .theSecondContainer {
@@ -467,6 +449,16 @@ body {
   font-size: 40px;
   font-weight: 700px;
   color: #ffff;
+}
+
+.theSecondContainer p {
+  color: #ebebff;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 28px;
+  width: 100%;
 }
 
 .my-contact img {
@@ -508,12 +500,12 @@ body {
   margin-left: 100px;
   border-radius: 8px;
   padding: 12px, 16px, 12px, 16px;
-  color: #0019fa;
+  color: #2e42f8;
   border: 1px solid #cfd8dc;
 }
 /* stylelint-disable-next-line rule-empty-line-before */
 .button:hover {
-  background-color: #0019fa;
+  background-color: #396df2;
   color: white;
   border: 1px solid white;
 }
@@ -548,7 +540,7 @@ body {
     line-height: 20px;
     display: flex;
     align-items: center;
-    color: #0019fa;
+    color: #6070ff;
   }
 
   .my-first-section li a {
@@ -589,7 +581,7 @@ body {
   .my-first-section h1 {
     font-weight: 700;
     font-size: 40px;
-    color: #344563;
+    color: #172b4d;
     margin-top: 80px;
   }
 
@@ -598,7 +590,7 @@ body {
     font-weight: 500;
     font-size: 15px;
     line-height: 24px;
-    color: #0019fa;
+    color: #7f8cff;
   }
 
   .my-first-section p {
@@ -640,7 +632,7 @@ body {
     line-height: 52px;
     display: flex;
     align-items: center;
-    color: #344563;
+    color: #172b4d;
     padding-bottom: 10px;
   }
 
@@ -732,8 +724,8 @@ body {
   .see-project button {
     border-radius: 10px;
     background-color: white;
-    color: #0019fa;
-    border-color: #0019fa;
+    color: #396df2;
+    border-color: #396df2;
     text-align: center;
     font-size: 16px;
     border-width: 1px;
@@ -763,7 +755,7 @@ body {
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-    color: #344563;
+    color: #7a869a;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -788,7 +780,7 @@ body {
   }
 
   .ancrotag li {
-    color: #0019fa;
+    color: #3e50f0;
     background-color: #ebebff;
     text-decoration: none;
     border-radius: 5px;
@@ -799,13 +791,13 @@ body {
   .see-project4 button {
     border-radius: 10px;
     background-color: white;
-    color: #0019fa;
+    color: #396df2;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 25px;
     padding-right: 25px;
     margin-top: 30px;
-    border-color: #0019fa;
+    border-color: #396df2;
     text-align: center;
     font-size: 16px;
     border-width: 1px;
@@ -815,13 +807,13 @@ body {
   .my-sixth-section button {
     border-radius: 10px;
     background-color: white;
-    color: #0019fa;
+    color: #396df2;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 25px;
     padding-right: 25px;
     margin-top: 30px;
-    border-color: #0019fa;
+    border-color: #396df2;
     text-align: center;
     font-size: 16px;
     border-width: 1px;
@@ -830,14 +822,14 @@ body {
 
   .my-sixth-section button:hover {
     border-radius: 10px;
-    background-color: #0019fa;
+    background-color: #396df2;
     color: #fff;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 25px;
     padding-right: 25px;
     margin-top: 30px;
-    border-color: #0019fa;
+    border-color: #396df2;
     text-align: center;
     font-size: 16px;
     border-width: 1px;
@@ -846,14 +838,14 @@ body {
 
   .see-project4 button:hover {
     border-radius: 10px;
-    background-color: #0019fa;
+    background-color: #0b47df;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 25px;
     padding-right: 25px;
     margin-top: 30px;
-    border-color: #0019fa;
+    border-color: rgb(33, 90, 247);
     text-align: center;
     font-size: 16px;
     border-width: 1px;
@@ -877,7 +869,7 @@ body {
     line-height: 20px;
     display: flex;
     align-items: center;
-    color: #344563;
+    color: #253858;
     padding-left: 10px;
   }
 
@@ -894,7 +886,7 @@ body {
     line-height: 20px;
     display: flex;
     align-items: center;
-    color: #344563;
+    color: #253858;
     padding-left: 10px;
   }
 
@@ -911,7 +903,7 @@ body {
     line-height: 20px;
     display: flex;
     align-items: center;
-    color: #344563;
+    color: #253858;
     padding-left: 10px;
   }
 
@@ -965,7 +957,7 @@ body {
     position: absolute;
     width: 100%;
     height: 779px;
-    background-color: #0019fa;
+    background-color: #6070ff;
     background-image: url("./Images-for-desktop-version/contact-form-Desktop-background-shapes.svg");
     background-repeat: no-repeat;
     background-size: auto;
@@ -1040,13 +1032,13 @@ body {
   .button {
     height: 48px;
     border-radius: 8px;
-    color: #0019fa;
+    color: #2e42f8;
     border: 1px solid #cfd8dc;
     margin-left: 100px;
   }
   /* stylelint-disable-next-line rule-empty-line-before */
   .button:hover {
-    background-color: #0019fa;
+    background-color: #396df2;
     color: white;
     border: 1px solid white;
   }
