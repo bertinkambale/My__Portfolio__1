@@ -6,7 +6,8 @@
 - CSS
 ## Live Demo
 
-[Live Demo Link]https://github.com/bertinkambale/My-professional-portfolio
+[Live Demo Link] https://bertinkambale.github.io/My__Portfolio__1/
+
 
 ## Get Started
 
