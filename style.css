@@ -47,7 +47,7 @@ li{
   top: 70px;
   gap: 0;
   flex-direction: column;
-  background-color: white;
+  background-color:#0b47df;
   width: 100%;
   text-align: center;
   transition: 0.3s;
@@ -66,6 +66,7 @@ li{
 }
 
 .nav-link{
+  text-decoration: none;
   transition: 0.7s ease;
 }
 
@@ -103,7 +104,6 @@ display: block;
 .hamburger.active .bar:nth-child(3){
   transform: translateY(-8px) rotate(-45deg);
 }
-
 
 .my-first-section {
   width: 80%;
@@ -624,7 +624,8 @@ display: block;
     gap: 70px;
     left: 60%;
     max-width: 300px;
-    margin-top: -50px;
+    background-color: white;
+    
   }
 
   .nav-branding{
@@ -632,7 +633,9 @@ display: block;
   }
 
   .nav-link{
+    text-decoration: none;
     transition: 0.7s ease;
+    color:#172b4d;
   }
 
   .nav-link:hover{
