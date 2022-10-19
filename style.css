@@ -432,7 +432,7 @@ img.counter {
   background: #89abff;
   color: #fff;
   cursor: pointer;
-  pad: 0;
+  padding: 0;
 }
 
 .popup-btn:active {
