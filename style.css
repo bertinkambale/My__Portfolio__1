@@ -248,6 +248,7 @@ ul li {
   line-height: 44px;
   letter-spacing: 0;
   text-align: left;
+  margin-bottom: 0;
 }
 
 .highlights {
@@ -360,6 +361,7 @@ img.counter {
   justify-content: space-between;
   font-size: 20px;
   font-weight: 700;
+  margin-bottom: -40px;
 }
 
 .cancel-icon {
@@ -432,7 +434,7 @@ img.counter {
   background: #89abff;
   color: #fff;
   cursor: pointer;
-  padding: 0;
+  /* padding: 0; */
 }
 
 .popup-btn:active {
@@ -490,7 +492,7 @@ img.counter {
 
 hr {
   height: 1px;
-  width: 327px;
+  width: 100%;
   right: 20px;
   top: 71px;
   border-radius: 0;
@@ -751,6 +753,7 @@ textarea {
   .popup-header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: -30px;
   }
 
   .popup-highlights {
@@ -765,7 +768,7 @@ textarea {
   }
 
   .left-section {
-    flex: 1;
+    flex: 2;
   }
 
   .right-section {
