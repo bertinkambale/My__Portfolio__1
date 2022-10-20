@@ -140,15 +140,13 @@ project.forEach((projects) => {
   });
 });
 /*                             validation form                         */
-
-
 // show a message with a type of the input
 function showMessage(input, message, type) {
 	// get the small element and set the message
-	const msg = input.parentNode.querySelector("small");
+	const msg = input.parentNode.querySelector('small');
 	msg.innerText = message;
 	// update the class for the input
-	input.className = type ? "success" : "error";
+	input.className = type ? "success" : 'error';
 	return type;
 }
 
@@ -157,11 +155,11 @@ function showError(input, message) {
 }
 
 function showSuccess(input) {
-	return showMessage(input, "", true);
+	return showMessage(input, '', true);
 }
 
 function hasValue(input, message) {
-	if (input.value.trim() === "") {
+	if (input.value.trim() === '') {
 		return showError(input, message);
 	}
 	return showSuccess(input);
@@ -174,7 +172,7 @@ function validateEmail(input, requiredMsg, invalidMsg) {
 	}
 	// validate email format
 	const emailRegex =
-		/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+		/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|('.+'))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
 	const email = input.value.trim();
 	if (!emailRegex.test(email)) {
@@ -185,11 +183,11 @@ function validateEmail(input, requiredMsg, invalidMsg) {
 
 // const form = document.querySelector("#signup");
 
-const NAME_REQUIRED = "Write your name here";
-const EMAIL_REQUIRED = "Please enter your email";
-const EMAIL_INVALID = "Please enter a correct email address format";
+const NAME_REQUIRED = 'Write your name here';
+const EMAIL_REQUIRED = 'Please enter your email';
+const EMAIL_INVALID = 'Please enter a correct email address format';
 
-form.addEventListener("submit", function (event) {
+form.addEventListener('submit', function (event) {
 	// stop form submission
 	event.preventDefault();
 
