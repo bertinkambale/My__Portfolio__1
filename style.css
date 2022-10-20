@@ -361,7 +361,7 @@ img.counter {
   justify-content: space-between;
   font-size: 20px;
   font-weight: 700;
-  margin-bottom: -40px;
+  margin-bottom: 20px;
 }
 
 .cancel-icon {
@@ -718,6 +718,7 @@ textarea {
 
   .highlights {
     margin-right: 50%;
+    margin-top: 10px;
   }
 
   .description {
@@ -754,7 +755,7 @@ textarea {
   .popup-header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: -30px;
+    margin-bottom: -20px;
   }
 
   .popup-highlights {
