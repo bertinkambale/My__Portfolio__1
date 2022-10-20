@@ -1,19 +1,15 @@
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
-
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
   navMenu.classList.toggle('active');
 });
-
 document.querySelectorAll('.nav-link').forEach((n) => n
   .addEventListener('click', () => {
     hamburger.classList.remove('active');
     navMenu.classList.remove('active');
   }));
-
-// Dynamic Pages
-
+/// ///////////////////////////////////////Dynamic Pages////////////////////
 const project = [{
   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
   description2: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -59,10 +55,8 @@ const project = [{
   title2: 'Uber Navigation',
 },
 ];
-
 const section = document.querySelector('.works');
 const popup = document.querySelector('.popup-window');
-
 project.forEach((projects) => {
   const article = document.createElement('article');
   const divImg = document.createElement('div');
@@ -74,7 +68,6 @@ project.forEach((projects) => {
   button.classList.add('btn');
   elements.classList.add('elements1');
   button.innerText = 'See Project';
-
   elements.innerHTML += `
     <h2 class="title">${projects.title1}</h2>
                         <ul class="highlights">
@@ -95,7 +88,6 @@ project.forEach((projects) => {
   divImg.append(img);
   article.append(divImg, elements);
   section.append(article);
-
   button.addEventListener('click', () => {
     popup.style.display = 'flex';
     section.style.filter = 'blur(5px)';
@@ -138,4 +130,17 @@ project.forEach((projects) => {
       document.body.style.overflow = 'initial';
     });
   });
+});
+/// ///////////////////////////////// Form Validation //////////////////////////////////////////
+const form = document.querySelector('form');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const email = document.getElementById('mail').value;
+  if (email.match(/^[a-z-0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z-0-9-]+(?:\.[a-z-0-9-]+)*$/)) {
+    form.action = 'https://formspree.io/f/xeqdgvyj';
+    form.submit();
+    return true;
+  }
+  document.querySelector('.error').innerHTML = 'your email should be in lowercase*';
+  return false;
 });
